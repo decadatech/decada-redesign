@@ -148,7 +148,7 @@
 }
 
 .card p {
-  color: #33055e;
+  color: rgba(62, 32, 135, 0.8);
   line-height: 2;
 }
 
@@ -219,7 +219,13 @@
 .services.container .content .services-itens .item p {
   max-width: 400px;
   text-align: left;
+  color: rgba(62, 32, 135, 0.8);
+  transition: 0.3s;
+}
+
+.services.container .content .services-itens .item:hover p {
   color: #33055e;
+  transition: 0.3s;
 }
 
 .services.container .content .services-itens .item button {

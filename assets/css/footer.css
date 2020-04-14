@@ -45,7 +45,7 @@
 }
 
 .footer .container.content p {
-  color: #521b83;
+  color: rgba(62, 32, 135, 0.8);
   margin-bottom: 20px;
   font-size: 18px;
   max-width: 650px;
