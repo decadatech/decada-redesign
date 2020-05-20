@@ -164,6 +164,11 @@
   transition: 0.3s;
 }
 
+.card button:hover {
+  background-color: rgba(62, 32, 135, 0.8);
+  transition: 0.3s;
+}
+
   /* ITEM SECTION */
 .services.container .content .item {
   display: flex;
@@ -359,10 +364,23 @@ section.portfolio-section {
 }
 
 /* TESTIMONIALS SECTION */
+.testimonials .container-fluid .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .container-fluid .title h1 {
+  text-align: center;
+  margin: 50px;
+  color: #45176e;
+}
+
 .testimonials .container-fluid .owl-carousel {
   margin: 0 auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
 }
