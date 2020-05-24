@@ -107,14 +107,14 @@
   background-position-x: center;
 }
 
-.services.container .title h1 {
+div.services .title h1 {
   text-align: center;
   margin: 15px;
   color: #45176e;
 }
 
   /* CONTENT SECTION */
-.services.container .content {
+div.services .content {
   padding-top: 50px;
   display: grid;
   gap: 30px;
@@ -152,11 +152,13 @@
   line-height: 2;
 }
 
-.card button {
+.card a {
   padding: 20px 25px;
   background-color: rgba(62, 32, 135, 0.5);
   border: none;
   color: #fff;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -164,8 +166,9 @@
   transition: 0.3s;
 }
 
-.card button:hover {
+.card a:hover {
   background-color: rgba(62, 32, 135, 0.8);
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -193,22 +196,22 @@
     align-items: center;
   }
 
-  .services.container .content .services-itens .item .item-content p {
+  .services.container .content .services-items .item .item-content p {
     text-align: center;
   }
 }
 
-.services.container .content .services-itens .item:hover {
+.services.container .content .services-items .item:hover {
   background-color: rgba(215, 192, 238, 0.1);
   border: 2px solid rgba(215, 192, 238, 0.4); 
   transition: 0.2s;
 }
 
-.services.container .content .services-itens .item img {
+.services.container .content .services-items .item img {
   width: 150px;
 }
 
-.services.container .content .services-itens .item h2 {
+.services.container .content .services-items .item h2 {
   margin: 15px auto;
   font-size: 20px;
   text-transform: uppercase;
@@ -216,42 +219,43 @@
   transition: 0.3s;
 }
 
-.services.container .content .services-itens .item:hover h2 {
+.services.container .content .services-items .item:hover h2 {
   color: rgba(138, 44, 226, 0.8);
   transition: 0.3s;
 }
 
-.services.container .content .services-itens .item p {
+.services.container .content .services-items .item p {
   max-width: 400px;
   text-align: left;
   color: rgba(62, 32, 135, 0.8);
   transition: 0.3s;
 }
 
-.services.container .content .services-itens .item:hover p {
+.services.container .content .services-items .item:hover p {
   color: #33055e;
   transition: 0.3s;
 }
 
-.services.container .content .services-itens .item button {
+.services.container .content .services-items .item a {
   background-color: transparent;
   color: rgba(62, 32, 135, 0.5);
   font-weight: 400;
   text-transform: uppercase;
+  text-decoration: none;
   border: none;
   transition: 0.2s;
 }
 
-.services.container .content .services-itens .item button:hover {
+.services.container .content .services-items .item a:hover {
   color: #45176e;
   transition: 0.2s;
 }
 
-.services.container .content .services-itens .item button i {
+.services.container .content .services-items .item a i {
   transition: 0.2s;
 }
 
-.services.container .content .services-itens .item button:hover i {
+.services.container .content .services-items .item a:hover i {
   margin-left: 5px;
   transition: 0.2s;
 }
