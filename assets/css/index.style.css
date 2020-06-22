@@ -377,7 +377,7 @@ section.portfolio-section {
 
 .testimonials .container-fluid .title h1 {
   text-align: center;
-  margin: 50px;
+  margin: 50px auto;
   color: #45176e;
 }
 
@@ -401,6 +401,10 @@ section.portfolio-section {
 @media only screen and (max-width: 600px) {
   .testimonials .container-fluid .owl-carousel .item {
     width: 90vw;
+  }
+
+  .testimonials .container-fluid .owl-carousel .item .brand-container a {
+    margin-top: 10px;
   }
 }
 
